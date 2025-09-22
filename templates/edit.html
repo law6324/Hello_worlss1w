@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>edit styude</h1>
+    <form action="" method="POST">
+        <label for="">use        </label>
+        <input type="text" name="user" value="{{student.name}}"><br>
+         <label for="">password        </label>
+        <input type="text" name="password" value="{{student.age}}"><br>
+         <label for="">use        </label>
+        <input type="text" name="age" value="{{student.grade}}"><br>
+        <input type="submit" value="update">
+    </form>
+    <a href="{{'url_for('index')'}}">back</a>
+</body>
+</html>
