@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First HTML Page</title>
+    <style>
+        /* Basic CSS for styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to My Website</h1>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- Section with Text -->
+        <section id="about">
+            <h2>About Us</h2>
+            <p>This is a simple webpage created to learn HTML. It includes various elements like headings, paragraphs, images, lists, and forms.</p>
+        </section>
+
+        <!-- Image Example -->
+        <section>
+            <h3>Sample Image</h3>
+            <img src="https://via.placeholder.com/300" alt="Sample Image" width="300">
+        </section>
+
+        <!-- Lists Example -->
+        <section>
+            <h3>My Hobbies</h3>
+            <!-- Unordered List -->
+            <ul>
+                <li>Reading Books</li>
+                <li>Playing Soccer</li>
+                <li>Coding</li>
+            </ul>
+            <!-- Ordered List -->
+            <h3>Steps to Learn HTML</h3>
+            <ol>
+                <li>Understand basic tags</li>
+                <li>Create a simple webpage</li>
+                <li>Add styles with CSS</li>
+            </ol>
+        </section>
+
+        <!-- Form Example -->
+        <section>
+            <h3>Contact Form</h3>
+            <form action="/submit" method="post">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" placeholder="Your message"></textarea><br><br>
+
+                <input type="submit" value="Send Message">
+            </form>
+        </section>
+
+        <!-- Table Example -->
+        <section>
+            <h3>Sample Table</h3>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>City</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>John</td>
+                        <td>25</td>
+                        <td>New York</td>
+                    </tr>
+                    <tr>
+                        <td>Jane</td>
+                        <td>30</td>
+                        <td>Los Angeles</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 My First Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
